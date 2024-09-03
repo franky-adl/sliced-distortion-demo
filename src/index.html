@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, shrink-to-fit=0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+        />
+        <link rel="stylesheet" href="https://use.typekit.net/iso3evp.css" />
+        <title>Sliced Distortion Demo</title>
+        <style>
+            /* Most resets from https://www.joshwcomeau.com/css/custom-css-reset/ */
+            * {
+                margin: 0;
+            }
+            *,
+            *::before,
+            *::after {
+                box-sizing: border-box;
+            }
+            img,
+            picture,
+            video,
+            canvas,
+            svg {
+                display: block;
+                max-width: 100%;
+            }
+            input,
+            button,
+            textarea,
+            select {
+                font: inherit;
+            }
+            html,
+            body {
+                width: 100%;
+                height: 100%;
+                -webkit-font-smoothing: antialiased;
+            }
+            #root {
+                width: 100%;
+                height: 100%;
+            }
+            img {
+                position: absolute;
+                pointer-events: none;
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="root"></div>
+        <img src="./assets/2.jpg" id="image-1" />
+        <img src="./assets/9.jpg" id="image-2" />
+        <img src="./assets/4.png" id="image-3" />
+        <script src="./index.js" type="module"></script>
+    </body>
+</html>

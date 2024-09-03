@@ -1,0 +1,35 @@
+{
+    "name": "sliced-distortion-demo",
+    "version": "1.0.0",
+    "description": "A starter template for react-three-fiber projects",
+    "browserslist": "> 0.5%, last 2 versions, not dead",
+    "scripts": {
+        "start": "rm -rf dist .parcel-cache && parcel src/index.html --open",
+        "build": "rm -rf dist .parcel-cache && parcel build src/index.html --public-url ./ --no-source-maps"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@eslint/js": "^9.5.0",
+        "@parcel/config-default": "^2.12.0",
+        "@parcel/transformer-glsl": "^2.12.0",
+        "@parcel/transformer-raw": "^2.12.0",
+        "@react-three/eslint-plugin": "^0.1.1",
+        "eslint": "^8.57.0",
+        "eslint-plugin-react": "^7.34.3",
+        "eslint-plugin-react-hooks": "^4.6.2",
+        "parcel": "^2.12.0",
+        "process": "^0.11.10"
+    },
+    "dependencies": {
+        "@react-three/drei": "^9.111.5",
+        "@react-three/fiber": "^8.17.6",
+        "dat.gui": "^0.7.9",
+        "gsap": "^3.12.5",
+        "leva": "^0.9.35",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "styled-components": "^6.1.11",
+        "three": "0.x"
+    }
+}
