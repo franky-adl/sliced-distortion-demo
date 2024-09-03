@@ -85,6 +85,11 @@ const MobileMenuItems = styled.div`
         font-size: 4rem;
         /* font-style: italic; */
     }
+    @media screen and (max-width: 600px) {
+        & > span {
+            font-size: clamp(2.5rem, 0.25rem + 10vw, 4rem);
+        }
+    }
 `;
 
 const BrandDiv = styled.div`
@@ -124,7 +129,7 @@ const Header = () => {
                 </MobileMenuTopBar>
                 <MobileMenuItems>
                     <span>ABOUT</span>
-                    <span>WORKS</span>
+                    <span>PHOTOGRAPHY</span>
                     <span>CONTACT</span>
                 </MobileMenuItems>
             </MenuFullScreen>
@@ -138,7 +143,7 @@ const Header = () => {
                     </MenuDiv>
                     <Menu>
                         <span>ABOUT</span>
-                        <span>WORKS</span>
+                        <span>PHOTOGRAPHY</span>
                         <span>CONTACT</span>
                     </Menu>
                 </InnerContainer>
