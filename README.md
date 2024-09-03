@@ -1,4 +1,4 @@
-## Sliced Distortion Demo (React-Three-Fiber)
+## Sliced Distortion Demo (React integrated with ThreeJS)
 
 A simple effect to show sliced distortion on an image.
 
